@@ -1,0 +1,12 @@
+[17-Dec-2021 21:48:40 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Illuminate\Log\Logger::__construct() must be an instance of Psr\Log\LoggerInterface, instance of Monolog\Logger given, called in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 189 and defined in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/Logger.php:43
+Stack trace:
+#0 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(189): Illuminate\Log\Logger->__construct(Object(Monolog\Logger), Object(Illuminate\Events\Dispatcher))
+#1 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(136): Illuminate\Log\LogManager->createEmergencyLogger()
+#2 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(111): Illuminate\Log\LogManager->get('stack')
+#3 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(583): Illuminate\Log\LogManager-> in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 43
+[17-Dec-2021 21:48:49 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Illuminate\Log\Logger::__construct() must be an instance of Psr\Log\LoggerInterface, instance of Monolog\Logger given, called in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 189 and defined in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/Logger.php:43
+Stack trace:
+#0 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(189): Illuminate\Log\Logger->__construct(Object(Monolog\Logger), Object(Illuminate\Events\Dispatcher))
+#1 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(136): Illuminate\Log\LogManager->createEmergencyLogger()
+#2 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(111): Illuminate\Log\LogManager->get('stack')
+#3 /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(583): Illuminate\Log\LogManager-> in /home/athootec/public_html/laravel/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 43

@@ -1,0 +1,107 @@
+body {
+    background-color: #263238 !important;
+}
+.navbar {
+    background-color: #424242 !important;
+    border-color: #424242 !important;
+}
+.navbar ul {
+    background-color: #424242 !important;
+}
+a {
+    color: #fff !important;
+}
+.card {
+    background: #263238 !important;
+    color: #fff;
+}
+.home .custom-link .content {
+    background-color: #424242 !important;
+}
+.card-header {
+    background: #263238 !important;
+    border-color: #fff;
+}
+input {
+    background: #424242 !important;
+    border-color: #424242 !important;
+    color: #fff !important;
+}
+.title {
+    background: #263238 !important;
+    color: #fff !important;
+}
+.customers .card-header,
+.customers .card-body {
+    background: #424242 !important;
+}
+.card-footer {
+    background: #263238 !important;
+}
+.features .title {
+    background: #424242 !important;
+}
+p {
+    color: #fff;
+}
+.sidebar-content {
+    background: #424242 !important;
+    border-color: #424242 !important;
+}
+.box {
+    background: #424242 !important;
+    border: 1px solid #424242 !important;
+}
+
+.desktop-links .table thead tr {
+    border-bottom: 4px solid #424242 !important;
+}
+
+.desktop-links .table thead th {
+    color: #fff !important;
+    background: #424242 !important;
+}
+.desktop-links .table tbody th,
+.desktop-links .table tbody td {
+    background: #263238 !important;
+    color: #fff !important;
+}
+
+.desktop-links .heading-section {
+    color: #fff;
+}
+.desktop-links .table tbody tr {
+    border-bottom: 4px solid #424242;
+}
+
+.mobile-links thead tr {
+    background: #3c3e3f !important;
+}
+.table thead th {
+    border-bottom: 2px solid #424242 !important;
+}
+.table td,
+.table th {
+    border-top: 1px solid #424242 !important;
+    color: #fff;
+}
+
+.mobile-links .link-td .link-info {
+    color: #fff !important;
+}
+.mobile-links h2 {
+    color: #fff !important;
+}
+h3 {
+    color: #fff;
+}
+.card {
+    margin-bottom: 50px;
+    border-color: #fff;
+}
+.account input[type="submit"] {
+    background: #007bff !important;
+}
+label, label[for="upload"]{
+	color: #fff !important
+}
